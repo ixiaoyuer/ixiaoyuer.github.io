@@ -13,7 +13,6 @@ for (let i = 0; i < aElements.length; i++) {
 
 // 显示菜单
 rm.showRightMenu = function (isTrue, x = 0, y = 0) {
-  // console.info(x, y);
   let rightMenu = document.getElementById("rightMenu");
   rightMenu.style.top = x + "px";
   rightMenu.style.left = y + "px";
@@ -178,7 +177,6 @@ rm.downloadimging = false;
 
 // 复制图片到剪贴板
 rm.writeClipImg = function (imgsrc) {
-  // console.log("按下复制");
   rm.hideRightMenu();
   anzhiyu.snackbarShow("正在下载中，请稍后", false, 10000);
   if (rm.downloadimging == false) {
