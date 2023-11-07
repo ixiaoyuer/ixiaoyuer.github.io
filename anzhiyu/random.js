@@ -1,1 +1,1 @@
-var posts=["2023/02/14/ChatGPT教程/","2023/01/15/Git学习/","2022/11/11/Java项目常用工具类/","2022/08/14/我的第一篇博客/","2023/01/28/Docker学习/","2022/12/12/springboot项目依赖/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2023/01/15/Git学习/","2023/02/14/ChatGPT教程/","2022/11/11/Java项目常用工具类/","2022/12/12/springboot项目依赖/","2023/01/28/Docker学习/","2022/08/14/我的第一篇博客/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
