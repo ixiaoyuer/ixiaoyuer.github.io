@@ -7883,9 +7883,6 @@ body[data-type="music"] .s-sticker div {
   -ms-transition: 0.3s;
   transition: 0.3s;
 }
-body:has(#console.show) #nav-music {
-  display: none !important;
-}
 @media screen and (max-width: 1400px) {
   body #anMusic-page #anMusicSwitching,
   body #anMusic-page #anMusicRefreshBtn,
@@ -14976,6 +14973,12 @@ blockquote {
 .share-link .share-main .share-main-all .reward-dec {
   font-size: 0.6rem;
 }
+.post-tools .post-tools-left > div {
+  margin: 0;
+}
+.post-tools .post-tools-left {
+  width: auto;
+}
 .relatedPosts {
   margin-top: 1.25rem;
 }
@@ -15087,7 +15090,7 @@ blockquote {
 .post-reward .reward-main {
   position: absolute;
   bottom: 40px;
-  left: 0;
+  left: -70%;
   z-index: 90;
   display: none;
   padding: 0px 0px 15px;
