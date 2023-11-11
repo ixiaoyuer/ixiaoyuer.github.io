@@ -53,7 +53,7 @@ var newYear = () => {
         $('#newYear').wpSuperSnow({
             flakes: ['https://proxy.ydg.icu/proxy/raw.githubusercontent.com/ixiaoyuer/pic_bed/main/img/yb1.webp', 'https://proxy.ydg.icu/proxy/raw.githubusercontent.com/ixiaoyuer/pic_bed/main/img/yb2.webp', 'https://proxy.ydg.icu/proxy/raw.githubusercontent.com/ixiaoyuer/pic_bed/main/img/yb3.webp'],
             totalFlakes: '100',
-            zIndex: '999999',
+            zIndex: '0',
             maxSize: '30',
             maxDuration: '20',
             useFlakeTrans: false
