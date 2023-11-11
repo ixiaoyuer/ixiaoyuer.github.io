@@ -17,6 +17,8 @@ var newYear = () => {
 
         // 右下角 今天
         document.querySelector('#newYear .today').innerHTML = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate() + ' ' + week[now.getDay()]
+        document.querySelector('#newYear .today').style.fontWeight = '900';
+
 
         // 现在与新年相差秒数
         let second = newYear - Math.round(now.getTime() / 1000);
@@ -27,7 +29,7 @@ var newYear = () => {
             document.querySelector('#newYear .newYear-time').innerHTML = '<span class="happyNewYear">新年快乐</p>';
         } else {
             // 大于0则还未过年
-            document.querySelector('#newYear .title').innerHTML = '距离2024年春节：'
+            document.querySelector('#newYear .title').innerHTML = '<font style="font-weight: 900;">距离2024年春节：</font>'
 
             // 大于一天则直接渲染天数
             if (second > 86400) {
