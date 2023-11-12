@@ -22805,9 +22805,10 @@ body:has(#console.show) #nav-music .aplayer .aplayer-lrc .aplayer-lrc-contents {
   body:has(#console.show) #nav-music {
     width: 90%;
   }
-  #center-console + label {
+  /* 手机端不显示中控台 */
+  /* #center-console + label {
     display: none;
-  }
+  } */
 }
 /* 歌词超出文本滚动动画 */
 @keyframes an-text-roll {
@@ -23241,16 +23242,16 @@ i.bber-gotobb {
 }
 
 /* 导航栏音乐 */
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   #nav-music {
     display: none !important;
   }
-}
+} */
 
 #nav-music {
   display: flex;
   align-items: center;
-  z-index: 9;
+  z-index: 999;
   position: fixed;
   bottom: 20px;
   left: 20px;
